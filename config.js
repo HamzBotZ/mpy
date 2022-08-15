@@ -39,7 +39,7 @@ global.mess = {
 
 
 global.sessionName = 'session'    
-global.thumb = fs.readFileSync('./FotoMenu/20220726_143341.jpg')
+global.thumb = fs.readFileSync('./FotoMenu/Gempy.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {

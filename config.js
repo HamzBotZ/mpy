@@ -13,20 +13,20 @@ global.APIKeys = {
 }
 
 //---LAINNYA---///
-global.owner = ['6287898307350']
-global.packname = 'PENTABOT'
-global.author = '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+global.owner = ['6288214989352']
+global.packname = 'ZxynnBotz'
+global.author = 'HamzGanz'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: '✓ Success',
+    success: 'Bilang Apa?✓',
     admin: ' LU GBS PAKE FITUR KARNA CUMA BUAT ADMIN Fitur Khusus Admin Group!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
     owner: 'Fitur Khusus Owner Bot',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Process...',
+    wait: 'Tunggu Ya Banj...',
 }
 
 
@@ -38,8 +38,8 @@ global.mess = {
 
 
 
-global.sessionName = 'GempyTon'    
-global.thumb = fs.readFileSync('./FotoMenu/Gempy.jpg')
+global.sessionName = 'session'    
+global.thumb = fs.readFileSync('./FotoMenu/20220726_143341.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
